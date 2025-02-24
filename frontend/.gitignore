@@ -1,0 +1,74 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files
+dist/
+build/
+out/
+.cache/
+.next/
+.vercel/
+.netlify/
+
+# MongoDB data and dumps
+data/db/
+dump/
+
+# Coverage and testing
+coverage/
+.nyc_output/
+jest/
+cypress/screenshots/
+cypress/videos/
+
+# Linting and formatting
+.eslintcache
+.prettier/
+.prettierignore
+
+# Backend specific
+*.pem
+*.key
+*.crt
+debug.log
+
+# Frontend specific
+*.lock
+*.babelrc
+*.cache/
+.sass-cache/
+public/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
