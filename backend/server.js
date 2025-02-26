@@ -18,7 +18,7 @@ connectDB();
 const app = express();
 app.use(
     cors({
-      origin: "https://parkit-park.vercel.app/",
+      origin: "https://parkit-park.vercel.app",
       methods: ["GET", "POST", "DELETE", "PUT"],
       allowedHeaders: [
         "Content-Type",
