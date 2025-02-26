@@ -28,8 +28,10 @@ app.use(
         "Pragma",
       ],
       credentials: true,
+      optionsSuccessStatus: 200,
     })
   );
+app.use(express.json());
 app.use(bodyParser.json());
 
 // Test Route
