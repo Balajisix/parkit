@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Car } from 'lucide-react';
 
 import { LoginToggle } from '../components/LoginToggle';

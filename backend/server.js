@@ -16,7 +16,20 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+app.use(
+    cors({
+      origin: "https://parkit-park.vercel.app/",
+      methods: ["GET", "POST", "DELETE", "PUT"],
+      allowedHeaders: [
+        "Content-Type",
+        "Authorization",
+        "Cache-Control",
+        "Expires",
+        "Pragma",
+      ],
+      credentials: true,
+    })
+  );
 app.use(bodyParser.json());
 
 // Test Route
